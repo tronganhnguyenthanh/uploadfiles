@@ -1,0 +1,44 @@
+.form-control:focus{
+  box-shadow:none !important;
+}
+
+.form-control{
+  width:100%;
+  padding:2px;
+  background-color:#6a5acd;
+  height:auto;
+}
+
+input[type='file']{
+  color:#fff;
+}
+
+input::file-selector-button{
+ color:#fff;
+ border-radius:50px;
+ border:none;
+ background-color:plum;
+ margin:2px;
+}
+
+#upload-file{
+  display:flex;
+  flex-direction:column;
+}
+
+summary::marker{
+ color:yellowgreen;
+}
+
+summary{
+ color:peru;
+ margin:8px;
+}
+
+.btn-showFile{
+  border:none;
+  width:25%;
+  margin:9px;
+  background-color:#ffa233;
+  color:#fff;
+}
