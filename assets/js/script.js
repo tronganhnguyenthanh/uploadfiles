@@ -4,7 +4,7 @@ document.querySelector(".form-control").addEventListener("change", function(e){
   document.querySelector("#upload-file").innerHTML += `
    <details>
       <summary>${files?.name}</summary>
-      <a href="${uploads}">
+      <a href="${uploads}" download="${files?.name}">
         <p class="ml-5">Download files</p>
       </a>
    </details>
